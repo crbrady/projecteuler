@@ -1,0 +1,7 @@
+
+.idea
+vnv/
+bin/
+obj/
+venv/
+.vs/
