@@ -3,13 +3,20 @@
 
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-result = 0
-testLimit = 1000
+testLimit = 4000000
 
-for i in range(0, testLimit):
-    threeTest = i /3
-    fiveTest = i /5
-    if int(i/3) == threeTest or int(i/5) == fiveTest:
-        result += i
+sequence = [1, 2]
+total = 2
 
-print(result)
+for i in range(0, 1000):
+    newValue = sequence[i] + sequence[i+1]
+
+    if newValue > testLimit:
+        break
+
+    if newValue % 2 == 0:
+        total += newValue
+
+    sequence.append(newValue)
+
+print(total)
