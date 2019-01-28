@@ -6,3 +6,8 @@ obj/
 venv/
 .vs/
 cmake-build-debug/
+
+#Rust
+**/target/
+Cargo.lock
+**/*.rs.bk
