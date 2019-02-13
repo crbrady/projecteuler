@@ -8,9 +8,7 @@ let testLimit = 1000;
 let total = 0;
 
 for(let i =0; i < testLimit;i++){
-    let threeTest = i / 3;
-    let fiveTest = i / 5;
-    if(parseInt(threeTest) == (i/3) || parseInt(fiveTest) == (i/5)){
+    if(i % 3 == 0 || i % 5 == 0){
         total += i;
     }
 }
