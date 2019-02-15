@@ -1,0 +1,3 @@
+#!/bin/bash
+scalac main.scala
+scala -classpath . HelloWorld
