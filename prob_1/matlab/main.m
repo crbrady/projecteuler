@@ -1,0 +1,2 @@
+% asf
+target  = 'Hello, world!';

@@ -5,6 +5,10 @@
 
 //Find the sum of all the multiples of 3 or 5 below 1000.
 
+std::string getJobId(){
+    return "asdfasdf";
+}
+
 int main() {
     int testValueLimit = 4000000;
 
@@ -26,7 +30,7 @@ int main() {
 
         sequence[i+2] = newValue;
     }
-
     std::cout << total << std::endl;
+    std::cout << getJobId() << std::endl;
     return 0;
 }
